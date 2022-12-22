@@ -1,0 +1,53 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    background-color: #5C2500;
+    height: 100vh;
+    width: 100vw;
+    
+}
+main > h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: #ececec;
+    text-shadow: 7px 1px 7px rgb(0, 0, 0);
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 900;
+    font-size: 65px;
+}
+main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.582)
+}
+div#img{
+    background: url(../img/log.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: left;
+    display: block;
+}
+div#form{
+    display: block;
+    padding: 10px;
+}
+@media screen and (min-width: 250px)  and (max-width: 768px){
+    
+}
