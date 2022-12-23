@@ -4,8 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif
+}
 body, html{
-    background-color: #5C2500;
+    background-color: #00305c;
     height: 100vh;
     width: 100vw;
     
@@ -13,11 +19,11 @@ body, html{
 main > h1 {
     text-align: center;
     padding-top: 50px;
-    color: #ececec;
+    color: #cff0ff;
     text-shadow: 7px 1px 7px rgb(0, 0, 0);
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 900;
-    font-size: 65px;
+    font-size: 45px;
 }
 main{
     position: relative;
@@ -28,10 +34,12 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
     transform: translate(-50%, -50%);
     background-color: whitesmoke;
-    width: 250px;
-    height: 500px;
+    width: 270px;
+    height: 500px; 
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.582)
@@ -48,6 +56,10 @@ div#form{
     display: block;
     padding: 10px;
 }
-@media screen and (min-width: 250px)  and (max-width: 768px){
-    
+div#form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#form > p{
+    font-size: 14px;
 }
