@@ -23,7 +23,7 @@ main > h1 {
     text-shadow: 7px 1px 7px rgb(0, 0, 0);
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 50px;
 }
 main{
     position: relative;
@@ -37,7 +37,7 @@ section#login{
     transition: width 0.4s, height 0.4s;
     transition-timing-function: ease;
     transform: translate(-50%, -50%);
-    background-color: whitesmoke;
+    background-color: rgb(238, 238, 238);
     width: 270px;
     height: 500px; 
     border-radius: 20px;
@@ -59,7 +59,66 @@ div#form{
 div#form > h1{
     text-align: center;
     margin-bottom: 10px;
+    color: #8d8e8fd8;
+    text-shadow: 2px 1px  black;
 }
 div#form > p{
-    font-size: 14px;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
+.campo{
+    background-color: dimgray;
+    border-radius: 5px;
+    border: 2px solid #0c4f8dd8;
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin: 5px 0px;
+    padding: 5px 2px;
+    color: rgb(255, 255, 255);
+}   
+label{
+    display: none;
+}
+.campo > span{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 40px;
+    height: 100%;
+    font-size: 30px;
+}
+.campo > input{
+    
+    width: 80%;
+    transform: translateY(-13px);
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    
+}
+form > input[type=submit]{
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #005bafd8;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    
+}
+form > input[type=submit]:hover{
+    background-color: #07345c;
+    cursor: pointer;
+}
+form > a{
+    display: block;
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
